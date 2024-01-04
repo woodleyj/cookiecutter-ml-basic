@@ -35,6 +35,7 @@ The directory structure of your new project looks like this:
 ├── LICENSE            <- Optional License file
 ├── Snakefile          <- Snakefile with workflow of project
 ├── README.md          <- The top-level README for developers using this project.
+├── .env               <- File for setting/reading environment variables
 ├── data
 │   ├── external       <- Data from third party sources.
 │   ├── interim        <- Intermediate data that has been transformed.
