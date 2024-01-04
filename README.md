@@ -23,7 +23,7 @@ $ conda install cookiecutter
 ### To start a new project, run:
 ------------
 
-    cookiecutter -c v1 https://github.com/woodleyj/cookiecutter-ml-basic
+    cookiecutter https://github.com/woodleyj/cookiecutter-ml-basic
 
 
 ### The resulting directory structure
@@ -32,7 +32,7 @@ $ conda install cookiecutter
 The directory structure of your new project looks like this: 
 
 ```
-├── LICENSE
+├── LICENSE            <- Optional License file
 ├── Snakefile          <- Snakefile with workflow of project
 ├── README.md          <- The top-level README for developers using this project.
 ├── data
@@ -41,7 +41,7 @@ The directory structure of your new project looks like this:
 │   ├── processed      <- The final, canonical data sets for modeling.
 │   └── raw            <- The original, immutable data dump.
 │
-├── docs               <- A default Sphinx project; see sphinx-doc.org for details
+├── docs               <- A default Sphinx project for generating documentation; see sphinx-doc.org for details
 │
 ├── models             <- Trained and serialized models, model predictions, or model summaries
 │
@@ -74,7 +74,7 @@ The directory structure of your new project looks like this:
 │   └── visualization  <- Scripts to create exploratory and results oriented visualizations
 │       └── visualize.py
 │
-└── tox.ini            <- tox file with settings for running tox; see tox.readthedocs.io
+└── tox.ini            <- tox file with settings for running tox for unit testing; see tox.readthedocs.io
 ```
 
 ### Installing development requirements
