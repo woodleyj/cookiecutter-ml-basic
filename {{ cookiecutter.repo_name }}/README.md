@@ -9,6 +9,7 @@ Project Organization
     ├── LICENSE
     ├── Snakefile          <- Snakefile with workflow of project
     ├── README.md          <- The top-level README
+    ├── .env               <- ENV file for storing environment variables
     ├── data
     │   ├── interim        <- Intermediate data that has been transformed.
     │   ├── processed      <- The final, processed data used for modeling.
